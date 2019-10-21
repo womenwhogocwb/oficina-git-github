@@ -13,24 +13,24 @@ Obs: para o Windows após a instalação utilizem o programa GitBash que foi ins
 -  `ls` - lista arquivos e pastas
 -  `cd` - avança para a pasta selecionada (ex: cd Documents)
 
-###Criar conta no GITHUB
+### Criação conta no GITHUB
 
 https://github.com
 
 Criação de repositório para um novo projeto no GITHUB.
 
-Configurar o repositório na nossa máquina
+### Configurar o repositório local
 
-Entro em uma pasta onde quero colocar meu repositório local:
+Pelo terminal entro em uma pasta onde quero colocar meu repositório local:
 
 ```bash
 cd Documentos/projetos/
 ```
 
-Estando dentro dela, clone o repositório:
+Quando estiver na pasta escolhida, clone o repositório (utilizar modo HTTPS):
 
 ```bash
-git clone https://github.com/knienkotter/wwg-1.git
+git clone https://github.com/womenwhogocwb/oficina-git-github.git
 ```
 
 O comando de clone irá criar dentro de Documentos/projetos a pasta com o nome do seu repositório. Então você deve entrar nesta pasta para continuar trabalhando com o git:
