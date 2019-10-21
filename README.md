@@ -1,4 +1,4 @@
-# oficina-git-github
+# Oficina de git e github
 ###### por Women Who Go Curitiba
 [![Twitter](./static/twitter-logo.png)](https://twitter.com/womenwhogocwb) [![LinkedIn](./static/linkedin-logo.png)](https://www.linkedin.com/company/40847620) 
 ![](./static/wwgcwb-logo.png)
