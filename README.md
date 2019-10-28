@@ -13,6 +13,8 @@ Neste repositório será armazenado o conteúdo para consulta e também demonstr
 
 📝 [Parte 1](parte_01.md) | O básico para começar, instalação, repositório Github, git clone, git status, git add, git commit, git log,  git push
 
+📝 [Parte 2](parte_02.md) | Hacktoberfest, fork, repositórios upstream, git branch, git checkout, git pull, git remote
+
 
 ## Língua
 
