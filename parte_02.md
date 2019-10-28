@@ -5,10 +5,12 @@
 
 ### O que é o evento?
 
-- Promove a colaboração em código livre. 
-- Acontece anualmente no mês de outubro.
-
+É uma celebração mundial da comunidade Open Source que ocorre durante o mês de outubro para incentivar a contribuição em projetos de código aberto. 
 [Veja mais no site oficial](https://hacktoberfest.digitalocean.com)
+
+Nesta oficina vamos fazer um passo-a-passo para criar seus Pull Requests e poder participar desta celebração. 
+
+Usaremos como exemplo o repositório de exercícios do Codelab, onde cada pessoa irá fazer um fork do projeto e irá adicionar as suas resoluções de exercícios em um repositório próprio através de Pull Request.
 
 ### Fork do repositório de exercícios do CODELAB
 
@@ -45,9 +47,8 @@ https://github.com/YOUR_USERNAME/WWG-Codelab-01/tree/nome-da-branch
 
 Acesse este link para criar um PULL REQUEST (o famoso PR)
 
-Tome cuidado para escolher para onde será enviado o PULL REQUEST, no nosso caso você deve criar o PR para sua própria conta.
-
-[incluir uma imagem co detalhes aqui]
+Tome cuidado para escolher para onde será enviado o PULL REQUEST, no nosso caso você deve criar o PR para sua própria conta.    
+Clique em 'base repository' para selecionar o seu repositório.
 
 ### Manter o repositório atualizado
 
@@ -57,7 +58,7 @@ Caso ocorra alterações no repositório mãe é importante que você sincronize
 
 ```bash
 $ git checkout master
-> Mudou para a branch 'master
+> Mudou para a branch 'master'
 
 $ git pull origin master
 > Atualizou a branch local
@@ -72,12 +73,12 @@ $ git remote -v
 > origin    https://github.com/YOUR_USERNAME/WWG-Codelab-01.git (push)
 ```
 
-Adicione o repositório mãe como upstream
+Adicione o repositório mãe como upstream, caso já não esteja configurado
 ```bash
 $ git remote add upstream https://github.com/womenwhogocwb/WWG-Codelab-01.git
 ```
 
-Verifique novamente as configurações
+Verifique novamente as configurações e veja o upstream configurado
 ```bash
 $ git remote -v
 > origin    https://github.com/YOUR_USERNAME/WWG-Codelab-01.git (fetch)
